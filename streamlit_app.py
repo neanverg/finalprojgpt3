@@ -19,7 +19,7 @@ def get_openai_response(question):
 # print(get_openai_response("hello"))
 
 st.set_page_config(page_title = "Text-Generation Demo")
-st.header("Text-Generation with OpenAI API")
+st.header("Text-Generation with OpenAI API By Nean Ordinario BSCS 3A AI")
 
 input_text = st.text_input("Ask me anything: ",key = "input")
 submit_button = st.button("Get the answer")
